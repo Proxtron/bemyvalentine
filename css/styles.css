@@ -1,0 +1,21 @@
+body {
+    background-color: #f29dac;
+    background-image: url(../img/spinning-heart-transparent.gif);
+    background-size: 10%;
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+    font-style: normal;
+    height:auto;
+    color:white;
+}
+
+.container {
+    display:flex;
+    height:35rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display:block;
+}
