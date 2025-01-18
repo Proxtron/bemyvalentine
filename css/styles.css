@@ -51,8 +51,39 @@ body {
     width:100px;
     padding-top:10px;
 }
+
 .menu-header p {
     margin: 0;
     text-align: center;
     padding-left: 7px;
+}
+
+.buttons-container {
+    display:flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    width:55%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn {
+    height:4rem;
+    width:8rem;
+    font-family: bloxat;
+    font-weight: 400;
+    color:white;
+    transition: filter 0.75s;
+}
+
+.btn:hover {
+    filter: brightness(150%);
+}
+
+.btn-yes {
+    background-color: #42f958;
+}
+
+.btn-no {
+    background-color: #f94247;
 }
