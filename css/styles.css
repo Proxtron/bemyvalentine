@@ -1,21 +1,58 @@
+@font-face {
+    font-family: bloxat;
+    src: url(Bloxat-PDoE.ttf);
+}
+
 body {
-    background-color: #f29dac;
+    background-color: #fae3eb;
     background-image: url(../img/spinning-heart-transparent.gif);
     background-size: 10%;
-    font-family: "Cedarville Cursive", serif;
+    font-family: bloxat;
     font-weight: 400;
-    font-style: normal;
-    height:auto;
-    color:white;
 }
 
 .container {
+    height:600px;
     display:flex;
-    height:35rem;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+.menu {
+    height:20rem;
+    width:35rem;
+    background-color: white;
+    border-right:7px solid #f8adcc;
+    border-left:7px solid #f8adcc;
+    border-bottom: 7px solid #f8adcc ;
+    padding:10px;
+}
+
+.menu-body {
+    color:#f8adcc;
+    display:flex;
+    flex-direction: column;
     align-items: center;
 }
 
-h1 {
-    display:block;
+.menu-header {
+    height:35px;
+    width:594px;
+    display:flex;
+    color: white;
+    background-color: #f8adcc;
+    align-items: center;
+    
+}
+
+.danger-icon {
+    height:100px;
+    width:100px;
+    padding-top:10px;
+}
+.menu-header p {
+    margin: 0;
+    text-align: center;
+    padding-left: 7px;
 }
