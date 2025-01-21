@@ -16,7 +16,7 @@ body {
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
 }
 
 .menu {
@@ -72,8 +72,10 @@ body {
     width:8rem;
     font-family: bloxat;
     font-weight: 400;
+    font-size: 1.5rem;
     color:white;
     transition: filter 0.75s;
+    cursor:pointer;
 }
 
 .btn:hover {
@@ -86,4 +88,31 @@ body {
 
 .btn-no {
     background-color: #f94247;
+}
+
+.press-no-reminder-container {
+    background-color: white;
+    color:#f8adcc;
+    width:10rem;
+    border: 2px solid #f8adcc;
+    text-align: center;
+    position:absolute;
+    top:23rem;
+    left:55rem;
+    display:none;
+}
+
+#jumping-no-btn {
+    display:none;
+    position:absolute;
+}
+
+.popup-img {
+    display: block;
+    opacity: 1;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    transition: opacity 2s;
 }
