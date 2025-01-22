@@ -17,7 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function handleYesClick() {
     if(pressNoReminderGiven) {
-
+        document.getElementById("press-no-reminder-container").style.display = "none";
+        document.getElementById("jumping-no-btn").style.display = "none";
+        document.getElementById("menu").innerHTML = `
+            <img src="img/giphy-preview.gif">
+            <h1>Woooo!!!</h1>
+        `;
     } else {
         document.getElementById("press-no-reminder-container").style.display = "block";
         pressNoReminderGiven = true;
